@@ -1,0 +1,27 @@
+:root {
+  --content-width: 860px;
+  --home-page-width: 1180px;
+}
+
+.vp-blog-hero-title,
+.vp-blog-hero-description {
+  text-shadow: 0 2px 18px rgb(0 0 0 / 20%);
+}
+
+.vp-blog-hero-image {
+  filter: drop-shadow(0 18px 35px rgb(23 107 135 / 28%));
+}
+
+.vp-project-card,
+.vp-article-item {
+  border: 1px solid var(--vp-c-border);
+  box-shadow: 0 12px 34px rgb(23 107 135 / 8%);
+}
+
+.vp-page-title h1 {
+  letter-spacing: -0.02em;
+}
+
+.theme-hope-content img {
+  border-radius: 10px;
+}

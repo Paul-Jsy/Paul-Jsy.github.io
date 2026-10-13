@@ -25,4 +25,4 @@ npm run docs:build
 - `src/notes/`：学习笔记
 - `src/about/`：个人介绍
 
-推送到 `main` 或 `master` 后，GitHub Actions 会构建并发布 GitHub Pages。
+推送到 `main` 或 `master` 后，GitHub Actions 会自动构建站点，并把渲染结果发布到 `gh-pages` 分支。

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Paul 的技术笔记">
+  <defs>
+    <linearGradient id="g" x1="16" y1="12" x2="112" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#176b87"/>
+      <stop offset="1" stop-color="#64ccc5"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#g)"/>
+  <path d="M35 96V32h31c18 0 29 10 29 26 0 17-12 27-31 27H51v11H35Zm16-26h14c9 0 14-4 14-12 0-7-5-11-14-11H51v23Z" fill="#fff"/>
+  <circle cx="94" cy="94" r="9" fill="#dafffb"/>
+</svg>

@@ -1,4 +1,0 @@
-User-agent:*
-Disallow:
-
-Sitemap: https://paul-jsy.github.io/sitemap.xml

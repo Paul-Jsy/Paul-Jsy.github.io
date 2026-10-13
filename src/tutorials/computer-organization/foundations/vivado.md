@@ -98,7 +98,7 @@ Vivado 是 AMD（原 Xilinx）面向 7 系列、UltraScale、UltraScale+、Versa
 
 ![选择源文件类型](/assets/tutorials/computer-organization/vivado-add-source-2.png)
 
-这里涉及到新建文件，需要输入文件名等信息。 
+这里涉及到新建文件，需要输入文件名等信息。
 
 ![Vivado 源文件视图](/assets/tutorials/computer-organization/vivado-source.png)
 
@@ -180,7 +180,7 @@ initial begin
     $display("==================================");
     $display("        ALL TESTS PASS!           ");
     $display("==================================");
-    
+
     #50;
     $finish;
 end

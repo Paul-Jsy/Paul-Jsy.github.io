@@ -42,9 +42,9 @@ always @(*) begin
         8'h07: alu_result = {op, alu_src1 >> alu_src2};       // SRL
         8'h08: alu_result = {op, $signed(alu_src1) >>> alu_src2};  // SRA
         8'h09: alu_result = {op, (alu_src1 << alu_src2) | (alu_src1 >> (8 - alu_src2))}; // ROL
-        
+
         // 无效 OP：
-        default: alu_result = {8'hFF, 8'h00};  
+        default: alu_result = {8'hFF, 8'h00};
     endcase
 end
 

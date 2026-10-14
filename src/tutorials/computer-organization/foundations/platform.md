@@ -8,6 +8,7 @@ tag:
   - FPGA
   - 实验平台
 order: 1
+article: false
 redirectFrom: /zh/lab/1_基础与衔接/1-1_实验平台.html
 ---
 

@@ -8,6 +8,7 @@ tag:
   - FPGA
   - 实验导览
 order: 1
+article: false
 redirectFrom: /zh/lab/0_实验介绍.html
 ---
 

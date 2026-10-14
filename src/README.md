@@ -1,31 +1,35 @@
 ---
 home: true
-layout: Blog
 icon: house
 title: 首页
-heroText: Paul 的技术笔记
-tagline: 把学到的知识写清楚，把做过的项目留下来。
 heroImage: /logo.svg
+heroText: Paul 的技术笔记
+tagline: 记录实践，也整理思考。这里收录技术文章、项目和持续生长的笔记。
 bgImage: false
 heroFullScreen: false
-projects:
-  - icon: book
-    name: 教程
-    desc: 系统整理的课程与技术教程
-    link: /tutorials/
-  - icon: file-lines
-    name: 文章
-    desc: 工程实践、问题复盘与技术思考
+actions:
+  - text: 阅读文章
+    icon: pen-to-square
     link: /article/
-  - icon: code-branch
-    name: 项目
-    desc: 正在构建和维护的开源项目
+    type: primary
+  - text: 查看项目
+    icon: code
     link: /projects/
-  - icon: link
-    name: GitHub
-    desc: 查看源码与更多实验
-    link: https://github.com/Paul-Jsy
+features:
+  - title: 技术文章
+    icon: file-lines
+    details: 工程实践、问题复盘与独立思考。
+    link: /article/
+  - title: 项目记录
+    icon: code-branch
+    details: 从想法、设计到落地的完整过程。
+    link: /projects/
+  - title: 随手笔记
+    icon: note-sticky
+    details: 尚在生长的知识片段与实用速查。
+    link: /notes/
 article: false
+comment: false
 redirectFrom:
   - /zh/
 footer: 持续学习，持续记录。

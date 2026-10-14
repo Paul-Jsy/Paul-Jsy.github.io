@@ -8,6 +8,7 @@ tag:
   - ALU
   - Verilog
 order: 1
+article: false
 redirectFrom: /zh/lab/2_alu/2-1_doc.html
 ---
 

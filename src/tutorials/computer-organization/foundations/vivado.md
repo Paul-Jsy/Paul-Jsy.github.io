@@ -8,6 +8,7 @@ tag:
   - Vivado
   - FPGA
 order: 2
+article: false
 redirectFrom: /zh/lab/1_基础与衔接/1-2_Vivado.html
 ---
 

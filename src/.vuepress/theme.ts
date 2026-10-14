@@ -22,8 +22,6 @@ export default hopeTheme({
   pageInfo: ["Author", "Date", "Category", "Tag", "ReadingTime"],
   blog: {
     name: "Paul",
-    description: "计算机系统、工程实践与折腾记录",
-    intro: "/about/",
     medias: {
       GitHub: "https://github.com/Paul-Jsy",
     },
@@ -54,6 +52,19 @@ export default hopeTheme({
       excerpt: true,
     },
     copyCode: true,
+    comment: process.env.GISCUS_CATEGORY_ID
+      ? {
+          provider: "Giscus",
+          repo: "Paul-Jsy/Paul-Jsy.github.io",
+          repoId: "R_kgDOLIZPfw",
+          category: process.env.GISCUS_CATEGORY || "Announcements",
+          categoryId: process.env.GISCUS_CATEGORY_ID,
+          mapping: "pathname",
+          inputPosition: "top",
+          lazyLoading: true,
+          reactionsEnabled: true,
+        }
+      : false,
     copyright: {
       canonical: "https://paul-jsy.github.io",
       license: "CC BY-NC-SA 4.0",

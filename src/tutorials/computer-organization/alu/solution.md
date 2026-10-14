@@ -9,6 +9,7 @@ tag:
   - Verilog
   - 参考实现
 order: 2
+article: false
 redirectFrom: /zh/lab/2_alu/2-2_rs.html
 ---
 

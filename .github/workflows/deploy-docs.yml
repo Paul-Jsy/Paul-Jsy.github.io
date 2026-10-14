@@ -35,6 +35,8 @@ jobs:
       - name: Build blog
         env:
           NODE_OPTIONS: --max_old_space_size=4096
+          GISCUS_CATEGORY: ${{ vars.GISCUS_CATEGORY }}
+          GISCUS_CATEGORY_ID: ${{ vars.GISCUS_CATEGORY_ID }}
         run: |
           npm run docs:build
           touch src/.vuepress/dist/.nojekyll

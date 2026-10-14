@@ -8,6 +8,7 @@ tag:
   - RTL
   - Verilog
 order: 3
+article: false
 redirectFrom: /zh/lab/1_基础与衔接/1-3_RTL与Verilog.html
 ---
 

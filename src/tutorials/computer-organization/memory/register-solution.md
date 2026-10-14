@@ -9,6 +9,7 @@ tag:
   - Verilog
   - 参考实现
 order: 3
+article: false
 redirectFrom: /zh/lab/3_寄存器与主存/3_3-regaws.html
 ---
 

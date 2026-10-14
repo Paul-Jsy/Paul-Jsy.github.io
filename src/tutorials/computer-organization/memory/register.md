@@ -8,6 +8,7 @@ tag:
   - 寄存器
   - Verilog
 order: 1
+article: false
 redirectFrom: /zh/lab/3_寄存器与主存/3_1-reg.html
 ---
 
